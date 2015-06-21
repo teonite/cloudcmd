@@ -66,6 +66,7 @@ Cloud Commander supports command line parameters:
 | `-p, --password`          | set password
 | `-c, --config`            | configuration file path
 | `--editor`                | set editor: "dword" or "edward"
+| `--theme-file`            | path to theme file
 | `--root`                  | set root directory
 | `--port`                  | set port number
 | `--no-auth`               | disable authorization

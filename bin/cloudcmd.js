@@ -21,7 +21,8 @@
                 'username',
                 'config',
                 'editor',
-                'root'
+                'root',
+                'theme-file'
             ],
             boolean: [
                 'auth',
@@ -41,7 +42,7 @@
                 editor      : config('editor') || 'edward',
                 username    : config('username'),
                 root        : config('root') || '/',
-                
+                'theme-file': config('theme-file'),
                 'progress-of-copying': config('progressOfCopying')
             },
             alias: {
@@ -77,6 +78,7 @@
         config('minify', args.minify);
         config('username', args.username);
         config('progressOfCopying', args['progress-of-copying']);
+        config('theme-file', args['theme-file']);
         root(args.root);
         editor(args.editor);
         
